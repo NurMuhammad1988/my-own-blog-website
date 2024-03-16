@@ -46,3 +46,11 @@ body {
 .active-button{
     color: #fc3c1a;
 }
+
+#asosiy{
+    
+    background-image: url(./assets/home.png);
+    background-position: center;
+    background-size: cover;
+    background-clip: padding-box ;
+}

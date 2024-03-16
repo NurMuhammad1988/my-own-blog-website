@@ -1,13 +1,12 @@
 import React from "react";
 import Banner from "../conponents/Banner";
+import BlogsCategorys from "../conponents/BlogsCategorys";
 
 const Home = () => {
     return (
         <div>
             <Banner />
-
-            <div className="max-w-7xl mx-auto">
-            </div>
+            <BlogsCategorys/>
         </div>
     );
 };

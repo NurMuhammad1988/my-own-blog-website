@@ -12,10 +12,10 @@ const Navbar = () => {
     };
     //NavItems
     const NavItems = [
-        { path: "/", link: "Home" },
-        { path: "/services", link: "Services" },
-        { path: "/blogs", link: "Blogs" },
-        { path: "/contact", link: "Contact" },
+        { path: "/", link: "Bosh sahifa" },
+        { path: "/services", link: "Hizmatlar" },
+        { path: "/blogs", link: "Bloglar" },
+        { path: "/contact", link: "Aloqa" },
     ];
 
     //yuqoridagi navLinks o'zgaruvchini ichiga path va link bilan srcni ichidagi main.jsx failida roterga o'ralgan link'arni chaqirvoldik va pastda map qilib lini ichiga kerakli joyga qo'ydik mapni ichida NavLink tegi bor bu NavLink tegi rect router domni linklar uchun mahsus tegi yani pathlar va linklar shu tegni ichiga o'ralishi kerak NavLink tegini o'zini mahsus stylelari bor linkga moslashgan shunda browser taniydi buni link ekanligini
@@ -32,9 +32,9 @@ const Navbar = () => {
 
     return (
         <header className="bg-black text-white fixed top-0 left-0 right-0">
-            <nav className="px-4 py-4 max-w-7xl mx-auto flex justify-between items-center  ">
+            <nav className="px-4 py-4 max-w-7xl mx-auto flex justify-between items-center   ">
                 <a href="/" className="text-xl font-bold text-white ">
-                    Techinfo <span className="text-orange-500">N.R</span>
+                    Techinfo <i className="text-orange-500">N.R</i>
                 </a>
 
                 {/* navItems for lg devices */}

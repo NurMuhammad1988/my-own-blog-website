@@ -15,7 +15,8 @@ const Footer = () => {
                             </p>
                             <ul className="mt-2 space-y-2">
                                 <li>
-                                    <a title="Ops,, Tez kunda"
+                                    <a
+                                        title="Tez kunda"
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
@@ -45,7 +46,7 @@ const Footer = () => {
 
                                 <li>
                                     <a
-                                        title="Ops,, Tez kunda"
+                                        title="Tez kunda"
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
@@ -73,54 +74,76 @@ const Footer = () => {
                             <ul className="mt-2 space-y-2">
                                 <li>
                                     <a
+                                        target="_blank"
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
-                                        href="/"
+                                        href="https://www.javascript.com/"
                                     >
-                                        React Appaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                        JavaScript
                                     </a>
                                 </li>
 
                                 <li>
                                     <a
+                                        target="_blank"
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
-                                        href="/"
+                                        href="https://react.dev/"
                                     >
-                                        eCommerce
+                                        React App
                                     </a>
                                 </li>
 
                                 <li>
                                     <a
+                                        target="_blank"
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
-                                        href="/"
+                                        href="https://reactnative.dev/"
                                     >
-                                        Business
+                                        React Native
                                     </a>
                                 </li>
 
                                 <li>
                                     <a
+                                        target="_blank"
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
-                                        href="/"
+                                        href="https://tailwindcss.com/"
                                     >
-                                        Entertainment
+                                        Tailwind Css
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
+                                        href="https://nextjs.org/"
+                                    >
+                                        Next.js
                                     </a>
                                 </li>
                             </ul>
                         </div>
 
                         {/* category 3*/}
-                        {/* <div>
+                        <div>
                             <p className="font-medium tracking-wide text-gray-300">
-                                Cherry
+                                Tez kunda
                             </p>
                             <ul className="mt-2 space-y-2">
                                 <li>
                                     <a
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
+                                    ></a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
+                                        href="/"
                                     >
-                                        Media
+                                Tez kunda
+                                      
                                     </a>
                                 </li>
 
@@ -129,7 +152,8 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Brochure
+                                Tez kunda
+                                        
                                     </a>
                                 </li>
 
@@ -138,7 +162,8 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Nonprofit
+                                Tez kunda
+                                        
                                     </a>
                                 </li>
 
@@ -147,23 +172,15 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Education
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a
-                                        className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
-                                        href="/"
-                                    >
-                                        Projects
+                                Tez kunda
+                                        
                                     </a>
                                 </li>
                             </ul>
-                        </div> */}
+                        </div>
 
                         {/* category 4*/}
-                        {/* <div>
+                        <div>
                             <p className="font-medium tracking-wide text-gray-300">
                                 Business
                             </p>
@@ -173,7 +190,8 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Infopreneur
+                                Tez kunda
+                                        
                                     </a>
                                 </li>
 
@@ -182,7 +200,8 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Personal
+                                Tez kunda
+                                        
                                     </a>
                                 </li>
 
@@ -191,7 +210,8 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Wikings
+                                Tez kunda
+                                        
                                     </a>
                                 </li>
 
@@ -200,20 +220,14 @@ const Footer = () => {
                                         className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
                                         href="/"
                                     >
-                                        Forum
+                                Tez kunda
+                                       
                                     </a>
                                 </li>
 
-                                <li>
-                                    <a
-                                        className="text-gray-500 transition-colors duration-300 hover:text-orange-500"
-                                        href="/"
-                                    >
-                                        Projects
-                                    </a>
-                                </li>
+                             
                             </ul>
-                        </div> */}
+                        </div>
                     </div>
 
                     {/* subscription*/}
