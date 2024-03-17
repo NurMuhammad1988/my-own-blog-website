@@ -2,7 +2,7 @@
 
 body {
     /* background: rgba(0, 0, 0, 0.718); */
-    
+
 }
 
 .active {
@@ -10,7 +10,7 @@ body {
     /* yani bu class routerniki yani ul ni ichidagi path linklarni qaysi biri activ holatda bo'lsa yani bosilgan bo'lsa yani qaysi pageni ichida bo'lsa shuni rangi shunday bolib tradi shunda user qaysi pageda turganini biladi bu saytdan foydalanishni qulaylashtiradi */
 }
 
-.pagination{
+.pagination {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,11 +20,11 @@ body {
 
 }
 
-.pagination li{
+.pagination li {
     margin: 0.5px;
 }
 
-.pagination a{
+.pagination a {
     display: inline-block;
     padding: 5px 10px;
     border: 1px solid #ccc;
@@ -33,24 +33,29 @@ body {
     color: #000;
 }
 
-.pagination a:hover{
+.pagination a:hover {
     background: #eee;
 }
 
-.pagination li.activerPagination{
-    background: rgb(255, 106,0);
+.pagination li.activerPagination {
+    background: rgb(255, 106, 0);
     border-radius: 4px;
     color: #fff;
 }
 
-.active-button{
+.active-button {
     color: #fc3c1a;
 }
 
-#asosiy{
-    
-    background-image: url(./assets/home.png);
-    background-position: center;
+/* #asosiy {
+
+    background-image: url(./assets/eyes-line-circles-information-face-hd-wallpaper-preview.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+
     background-size: cover;
-    background-clip: padding-box ;
-}
+
+    background-position: center;
+
+    height: 100vh;
+} */

@@ -35,6 +35,8 @@ const Modal = ({ isOpen, onClose }) => {
                             />
                         </div>
 
+                        
+
                         <div>
                             <button className="hover:shadow-md rounded-md bg-[#6a64f1] hover:bg-orange-600 py-3 px-8 text-base font-semibold text-white outline-none">
                                 Login

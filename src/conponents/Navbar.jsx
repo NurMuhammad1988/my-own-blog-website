@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaXmark } from "react-icons/fa6";
-// import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 import Modal from "./Modal";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
     const NavItems = [
         { path: "/", link: "Bosh sahifa" },
         { path: "/services", link: "Hizmatlar" },
-        { path: "/blogs", link: "Bloglar" },
+        { path: "/blogs", link: "Bloglar  " },
         { path: "/contact", link: "Aloqa" },
     ];
 
@@ -34,13 +34,16 @@ const Navbar = () => {
         <header className="bg-black text-white fixed top-0 left-0 right-0">
             <nav className="px-4 py-4 max-w-7xl mx-auto flex justify-between items-center   ">
                 <a href="/" className="text-xl font-bold text-white ">
-                    Techinfo <i className="text-orange-500">N.R</i>
+                    TechInfo <i className="text-orange-500">N.R</i>
                 </a>
 
                 {/* navItems for lg devices */}
                 <ul className="md:flex gap-24 text-lg hidden">
                     {NavItems.map(({ path, link }) => (
-                        <li key={path} className="text-white hover:text-orange-500">
+                        <li
+                            key={path}
+                            className="text-white hover:text-orange-500"
+                        >
                             <NavLink
                                 className={({ isActive, isPending }) =>
                                     isActive
@@ -56,6 +59,7 @@ const Navbar = () => {
                         </li>
                     ))}
                 </ul>
+
                 {/* menu icons */}
                 {/* <div className="text-white lg:flex gap-4 items-center hidden">
                     <a className="hover:text-orange-500" href="/">
@@ -90,6 +94,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </nav>
+
             {/* menu items only for mobile */}
             <div>
                 <ul

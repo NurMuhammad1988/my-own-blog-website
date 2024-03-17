@@ -182,7 +182,7 @@ const Footer = () => {
                         {/* category 4*/}
                         <div>
                             <p className="font-medium tracking-wide text-gray-300">
-                                Business
+                                Tez kunda
                             </p>
                             <ul className="mt-2 space-y-2">
                                 <li>

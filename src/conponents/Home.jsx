@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "../conponents/Banner";
-import BlogsCategorys from "../conponents/BlogsCategorys";
+import Banner from "./Banner";
+import BlogsCategorys from "./BlogsCategorys";
 
 const Home = () => {
     return (
         <div>
             <Banner />
-            <BlogsCategorys/>
+            <BlogsCategorys />
         </div>
     );
 };

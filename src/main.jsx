@@ -6,11 +6,16 @@ import "./index.css";
 //react router dom
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import Blogs from "./pages/Blogs.jsx";
-import Contact from "./pages/Contact.jsx";
-import Services from "./pages/Services.jsx";
+import Home from "./conponents/Home.jsx";
+import Blogs from "./conponents/Blogs.jsx";
+import Contact from "./conponents/Contact.jsx";
+import Services from "./conponents/Services.jsx";
 import AboutUs from "./conponents/AboutUs.jsx";
+import Smartfonlar from "./conponents/Smartfonlar.jsx";
+import Noutbuklar from "./conponents/Noutbuklar.jsx";
+import Suniy_intellekt from "./conponents/Suniy_intellekt.jsx";
+import P_computer from "./conponents/P_computer.jsx";
+import Games from "./conponents/Games.jsx";
 
 const router = createBrowserRouter([
     {
@@ -25,7 +30,7 @@ const router = createBrowserRouter([
                 path: "/blogs",
                 element: <Blogs />,
             },
-           
+
             {
                 path: "/contact",
                 element: <Contact />,
@@ -36,12 +41,37 @@ const router = createBrowserRouter([
                 element: <Services />,
             },
 
-         
-
             {
                 path: "/us",
                 element: <AboutUs />,
             },
+
+            {
+                path: "/smartfonlar",
+                element: <Smartfonlar />,
+            },
+
+            {
+                path: "/noutbuklar",
+                element: <Noutbuklar />,
+            },
+
+            {
+                path: "/suniy_intellekt",
+                element: <Suniy_intellekt />,
+            },
+
+            {
+                path: "/p_computer",
+                element: <P_computer />,
+            },
+
+            {
+                path: "/games",
+                element: <Games/>,
+            },
+
+            
         ],
     },
 ]);

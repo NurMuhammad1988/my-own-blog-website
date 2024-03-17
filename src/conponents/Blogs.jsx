@@ -5,7 +5,7 @@ const Blogs = () => {
         <div>
             <div className="py-44 bg-black text-center text-white px-4">
                 <h2 className="text-5xl lg:text-7xl leading-snug font-bold mb-5">
-                    Blog Page
+                    Blog Pagess
                 </h2>
             </div>
             {/* all blogs container*/}
