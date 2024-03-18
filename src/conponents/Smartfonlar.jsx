@@ -5,14 +5,17 @@ import { NavLink } from "react-router-dom";
 const Smartfonlar = () => {
     return (
         <div className="  text-center text-black bg-slate-200  p-2">
-            <section className=" w-screen   p-8">
-                <div className="grid justify-between  md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 my-10">
+            <section className=" p-7">
+                <h1 className="text-black mt-12 uppercase font-serif ">
+                    Samrtfonlar__1
+                </h1>
+                <div className="grid justify-between  md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 my-7">
                     {/* 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/}
                     <div className="bg-white rounded-lg border shadow-md max-w-xs md:max-w-none overflow-hidden hover:opacity-95">
                         <NavLink to="/sm_1" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title="Womans meeting"
                                 src="https://images.unsplash.com/photo-1523289217630-0dd16184af8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW4lMjBlbXBvd2VybWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                                 alt=""
                             />
@@ -43,7 +46,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_2" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1626594995085-36b551227b9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww"
                                 alt=""
                             />
@@ -74,7 +77,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_3" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://plus.unsplash.com/premium_photo-1667311649552-2cfab63bdcfc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww"
                                 alt=""
                             />
@@ -105,7 +108,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_4" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1618886487325-f665032b6352?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww"
                                 alt=""
                             />
@@ -136,7 +139,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_5" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1563207937-508961e52353?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww"
                                 alt=""
                             />
@@ -167,7 +170,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_6" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://plus.unsplash.com/premium_photo-1677619695609-1befaeb09300?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww"
                                 alt=""
                             />
@@ -198,7 +201,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_7" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1544961371-516024f8e267?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -229,7 +232,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_8" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://plus.unsplash.com/premium_photo-1674929042444-b7642868f024?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -260,7 +263,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_9" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1613706903647-77e255eff994?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -291,7 +294,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_10" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1610910364020-405f4c9cf26a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -322,7 +325,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_11" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1616285798798-945ebab6583f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -353,7 +356,7 @@ const Smartfonlar = () => {
                         <NavLink to="/sm_12" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1616352116682-52d7941afd53?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -380,11 +383,11 @@ const Smartfonlar = () => {
                     {/* 12.121212121212121212121212122121212121212212121212121212121212121212121212121212121212121212121212*/}
 
                     {/* 13.131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313*/}
-                    <div className="bg-white rounded-lg border shadow-md max-w-xs md:max-w-none overflow-hidden hover:opacity-95">
+                    {/* <div className="bg-white rounded-lg border shadow-md max-w-xs md:max-w-none overflow-hidden hover:opacity-95">
                         <NavLink to="/sm_13" style={{ textDecoration: "none" }}>
                             <img
                                 className="h-56 lg:h-60 w-full object-cover "
-                                title="Womans..."
+                                title=""
                                 src="https://images.unsplash.com/photo-1544961371-516024f8e267?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt=""
                             />
@@ -407,10 +410,30 @@ const Smartfonlar = () => {
 
                             <FaRegComment className="text-gray-500 w-10 h-6 cursor-cell hover:text-blue-600" />
                         </div>
-                    </div>
-                    {/* 13.131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313*/}
+                    </div> */}
+                    {/* 13.131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313 */}
+                </div>
 
-                    </div>
+                <div className="flex justify-center gap-7">
+
+<p>....</p>
+                    <NavLink to="/smartfonlar_2">
+                        <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                            2
+                        </h1>
+                    </NavLink>
+
+
+                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                        3
+                    </h1>
+                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                        4
+                    </h1>
+                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                        5
+                    </h1>
+                </div>
             </section>
         </div>
     );

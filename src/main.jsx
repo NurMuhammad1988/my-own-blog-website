@@ -17,6 +17,8 @@ import Suniy_intellekt from "./conponents/Suniy_intellekt.jsx";
 import P_computer from "./conponents/P_computer.jsx";
 import Games from "./conponents/Games.jsx";
 import Sm_1 from "./conponents/AllSmartfonPages/Sm_1.jsx";
+import Smartfonlar_2 from "./conponents/Smartfonlar_2.jsx";
+import Smartfonlar_3 from "./conponents/Smartfonlar_3.jsx";
 
 const router = createBrowserRouter([
     {
@@ -77,6 +79,16 @@ const router = createBrowserRouter([
                 element: <Sm_1 />,
             },
 
+            
+            {
+                path: "/smartfonlar_2",
+                element: <Smartfonlar_2 />,
+            },
+
+            {
+                path: "/smartfonlar_3",
+                element: <Smartfonlar_3 />,
+            },
         
         ],
     },

@@ -7,6 +7,10 @@ const NavItems = [
     { path: "/suniy_intellekt", link: "Sun'iy intellekt " },
     { path: "/p_computer", link: "P.Computer" },
     { path: "/games", link: "O'yinlar" },
+    { path: "/smartfonlar_2", link: "Smartfonlar_2" },
+    { path: "/smartfonlar_3", link: "Smartfonlar_3" },
+
+
 ];
 
 const BlogsCategorys = () => {
