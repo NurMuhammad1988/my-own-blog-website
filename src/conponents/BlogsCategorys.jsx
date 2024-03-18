@@ -7,8 +7,12 @@ const NavItems = [
     { path: "/suniy_intellekt", link: "Sun'iy intellekt " },
     { path: "/p_computer", link: "P.Computer" },
     { path: "/games", link: "O'yinlar" },
-    { path: "/smartfonlar_2", link: "Smartfonlar_2" },
-    { path: "/smartfonlar_3", link: "Smartfonlar_3" },
+    // { path: "/smartfonlar_2", link: "Smartfonlar_2" },
+    // { path: "/smartfonlar_3", link: "Smartfonlar_3" },
+    // { path: "/smartfonlar_4", link: "Smartfonlar_4" },
+    // { path: "/smartfonlar_5", link: "Smartfonlar_5" },
+
+
 
 
 ];

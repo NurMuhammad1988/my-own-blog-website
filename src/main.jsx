@@ -19,6 +19,8 @@ import Games from "./conponents/Games.jsx";
 import Sm_1 from "./conponents/AllSmartfonPages/Sm_1.jsx";
 import Smartfonlar_2 from "./conponents/Smartfonlar_2.jsx";
 import Smartfonlar_3 from "./conponents/Smartfonlar_3.jsx";
+import Smartfonlar_4 from "./conponents/Smartfonlar_4.jsx";
+import Smartfonlar_5 from "./conponents/Smartfonlar_5.jsx";
 
 const router = createBrowserRouter([
     {
@@ -88,6 +90,16 @@ const router = createBrowserRouter([
             {
                 path: "/smartfonlar_3",
                 element: <Smartfonlar_3 />,
+            },
+
+            {
+                path: "/smartfonlar_4",
+                element: <Smartfonlar_4 />,
+            },
+
+            {
+                path: "/smartfonlar_5",
+                element: <Smartfonlar_5 />,
             },
         
         ],

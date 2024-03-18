@@ -430,12 +430,17 @@ const Smartfonlar_2 = () => {
                         3
                     </h1>
                 </NavLink>
-                <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
-                    4
-                </h1>
-                <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
-                    5
-                </h1>
+                <NavLink to="/Smartfonlar_4">
+                    {" "}
+                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                        4
+                    </h1>
+                </NavLink>
+                <NavLink to="/smartfonlar_5">
+                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                        5
+                    </h1>
+                </NavLink>
             </div>
         </div>
     );

@@ -415,24 +415,26 @@ const Smartfonlar = () => {
                 </div>
 
                 <div className="flex justify-center gap-7">
-
-<p>....</p>
+                    <p>....</p>
                     <NavLink to="/smartfonlar_2">
                         <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
                             2
                         </h1>
                     </NavLink>
 
-
-                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
-                        3
-                    </h1>
-                    <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                    <NavLink to="/smartfonlar_3">
+                        <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
+                            3
+                        </h1>
+                    </NavLink>
+                    <NavLink to="/smartfonlar_4"><h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
                         4
-                    </h1>
+                    </h1></NavLink>
+
+                  <NavLink to="/smartfonlar_5">  
                     <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">
                         5
-                    </h1>
+                    </h1></NavLink>
                 </div>
             </section>
         </div>
