@@ -2,7 +2,10 @@ import React from 'react'
 
 const P_computer = () => {
   return (
-    <div className='pt-96'>P_computer</div>
+    <div className='pt-2'>
+
+
+    </div>
   )
 }
 

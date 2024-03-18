@@ -2,7 +2,11 @@ import React from 'react'
 
 const Noutbuklar = () => {
   return (
-    <div className='pt-96'>Noutbuklar</div>
+    <div className='pt-2'>
+
+
+
+    </div>
   )
 }
 

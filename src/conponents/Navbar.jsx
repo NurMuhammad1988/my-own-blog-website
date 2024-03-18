@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaXmark } from "react-icons/fa6";
-import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
+// import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 import Modal from "./Modal";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
     const NavItems = [
         { path: "/", link: "Bosh sahifa" },
         { path: "/services", link: "Hizmatlar" },
-        { path: "/blogs", link: "Bloglar  " },
+        // { path: "/blogs", link: "Bloglar  " },
         { path: "/contact", link: "Aloqa" },
     ];
 
@@ -31,18 +31,18 @@ const Navbar = () => {
     };
 
     return (
-        <header className="bg-black text-white fixed top-0 left-0 right-0">
-            <nav className="px-4 py-4 max-w-7xl mx-auto flex justify-between items-center   ">
-                <a href="/" className="text-xl font-bold text-white ">
-                    TechInfo <i className="text-orange-500">N.R</i>
+        <header className="  bg-slate-300  fixed top-0 left-0 right-0 z-50">
+            <nav className=" px-4 py-3 max-w-7xl mx-auto flex justify-between  items-center ">
+                <a href="/" className="text-xl font-bold ">
+                    TechInfo <i className="text-yellow-500">N.R</i>
                 </a>
 
                 {/* navItems for lg devices */}
-                <ul className="md:flex gap-24 text-lg hidden">
+                <ul className="md:flex gap-24 text-lg hidden  ">
                     {NavItems.map(({ path, link }) => (
                         <li
                             key={path}
-                            className="text-white hover:text-orange-500"
+                            className="text-black "
                         >
                             <NavLink
                                 className={({ isActive, isPending }) =>
@@ -106,7 +106,10 @@ const Navbar = () => {
                 >
                     {/* ${isMenuOpen ? "fixed top-0 left-0 w-full transition-all ease-out duration-150" : "hidden"  yani togleni if elsi shu kod bilan ochilib yopiladi ul ni ichidagi menu yani faqat mobil formatda*/}
                     {NavItems.map(({ path, link }) => (
-                        <li key={path} className="text-black">
+                        <li
+                            key={path}
+                            className="text-black hover:text-orange-500"
+                        >
                             <NavLink onClick={toggleMenu} to={path}>
                                 {link}
                             </NavLink>

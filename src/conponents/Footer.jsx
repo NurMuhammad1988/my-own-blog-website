@@ -4,13 +4,15 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
     return (
-        <div className="bg-gray-900">
+        // bg-gray-900"
+        <div className="">
             <div className="px-4 pt-[100px] mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 ">
                 <div className="grid mb-8 lg:grid-cols-6">
                     <div className="grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4">
                         {/* category 1*/}
                         <div>
-                            <p className="font-medium tracking-wide text-gray-300">
+                            {/* text-gray-300 */}
+                            <p className="font-medium tracking-wide ">
                                 Biz bilan aloqa
                             </p>
                             <ul className="mt-2 space-y-2">
@@ -68,7 +70,7 @@ const Footer = () => {
 
                         {/* category 2*/}
                         <div>
-                            <p className="font-medium tracking-wide text-gray-300">
+                            <p className="font-medium tracking-wide">
                                 Foydali havolalar
                             </p>
                             <ul className="mt-2 space-y-2">
@@ -126,7 +128,7 @@ const Footer = () => {
 
                         {/* category 3*/}
                         <div>
-                            <p className="font-medium tracking-wide text-gray-300">
+                            <p className="font-medium tracking-wide ">
                                 Tez kunda
                             </p>
                             <ul className="mt-2 space-y-2">
@@ -181,7 +183,7 @@ const Footer = () => {
 
                         {/* category 4*/}
                         <div>
-                            <p className="font-medium tracking-wide text-gray-300">
+                            <p className="font-medium tracking-wide ">
                                 Tez kunda
                             </p>
                             <ul className="mt-2 space-y-2">
@@ -232,7 +234,7 @@ const Footer = () => {
 
                     {/* subscription*/}
                     <div className="md:max-w-md lg:col-span-2 lg:mt-0 mt-5">
-                        <p className="font-medium tracking-wide text-gray-300">
+                        <p className="font-medium tracking-wide">
                             Subscribe for updates
                         </p>
 
@@ -244,7 +246,7 @@ const Footer = () => {
                                 id="email"
                             />
                             <button
-                                className="inline-flex items-center  justify-center h-12 px-6  font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:bg-orange-500 focus:outline-none border"
+                                className="inline-flex items-center  justify-center h-12 px-6  font-medium tracking-wide  transition duration-200 rounded shadow-md hover:bg-orange-500 focus:outline-none border"
                                 type="submit"
                             >
                                 Subscribe
