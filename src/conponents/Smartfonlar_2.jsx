@@ -381,7 +381,6 @@ const Smartfonlar_2 = () => {
                     </div>
                     {/* 24.*/}
                 </div>
-
                 <div className="flex justify-center gap-7">
                     <NavLink to="/smartfonlar">
                         <h1 className="cursor-pointer hover:bg-slate-300 p-2 border-[1px] border-slate-400 ">

@@ -379,7 +379,6 @@ const Smartfonlar = () => {
                     </div>
                     {/* 12.*/}
                 </div>
-
                 <div className="flex justify-center gap-7">
                     <p className="cursor-pointer">....</p>
                     <h1 className="cursor-pointer  hover:bg-slate-300 p-2 border-[1px] border-slate-400 bg-slate-500">

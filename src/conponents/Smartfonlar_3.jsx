@@ -13,7 +13,7 @@ const Smartfonlar_3 = () => {
                     <div className=" bg-white rounded-lg  shadow-md max-w-xs md:max-w-none overflow-hidden hover:opacity-95">
                         <NavLink to="/sm_25" style={{ textDecoration: "none" }}>
                             <img
-                                className="h-56 lg:h-60 w-full object-cover "
+                                className="w-full h-[100%] max-w-xl rounded-lg"
                                 title=""
                                 src="https://images.pexels.com/photos/2245436/pexels-photo-2245436.png?auto=compress&cs=tinysrgb&w=600"
                                 alt=""
