@@ -17,4 +17,6 @@ function App() {
 
 export default App;
 
-by loyigada muamo bor asosiy sahifadan boshqa sahifalarga basalab bloglarga smartfonlar 1,2,3 sahifalarga o'tib sahifani qayta yuklasa hato chiqayapti /pathlarda nima dur muammo bor
+// by loyigada muamo bor asosiy sahifadan boshqa sahifalarga basalab bloglarga smartfonlar 1,2,3 sahifalarga o'tib sahifani qayta yuklasa hato chiqayapti /pathlarda nima dur muammo bor
+
+// bu 60 ta postli id bilan ishlatilgan https:github.com/NurMuhammad1988/my-own-blog-website darsligi
